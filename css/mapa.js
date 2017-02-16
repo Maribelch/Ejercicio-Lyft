@@ -3,13 +3,13 @@ function init()
 {
     var list = document.getElementById("list");
     var listPais= '[{"nombre": "Argentina","img": '+
-    '"https://www.saberespractico.com/wp-content/uploads/2015/04/argentina-bandera-200px.jpg",'+
+    '"https://k37.kn3.net/taringa/9/B/B/5/B/4/freddybostero/A98.gif",'+
     '"phone_code": "5"},'+
     
     '{"nombre":"Bolivia","img":"http://livrespensadores.net/wp-content/uploads/2012/06/bolivia.gif",'+
     '"phone_code": "591"},'+
     
-    '{"nombre": "Brasil" ,"img": "https://www.saberespractico.com/wp-content/uploads/2015/04/brasil-bandera-200px.jpg",'+ '"phone_code": "55"},'+
+    '{"nombre": "Brasil" ,"img": "https://images-na.ssl-images-amazon.com/images/I/315%2BZxfybuL.jpg",'+ '"phone_code": "55"},'+
     
     '{"nombre": "Perú","img": "http://cualesel.net/wp-content/uploads/cu%C3%A1l-es-la-bandera-de-per%C3%BA-.png","phone_code": "51"}]';
     
