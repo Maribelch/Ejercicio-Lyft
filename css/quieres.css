@@ -1,0 +1,19 @@
+/*-----------------!PHONE 5-----*/
+@media screen and (max-width:568px) and (min-width:320px) {
+   .section-botones 
+    {
+        padding-top:20em;
+    }
+    .section-botones button 
+    {
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .section-botones ul li a 
+    {
+        font-size: 25px;
+        padding:5px 10px;
+    }
+}
+/*-----------------GALAXY S5-----*/
+/*-----------------GALAXY S5-----*/

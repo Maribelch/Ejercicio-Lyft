@@ -1,0 +1,85 @@
+/*--------html1---*/
+
+.imagen
+{
+    position:absolute;
+    background-image: url(../img/Captura%20de%20pantalla%202017-02-09%20a%20las%2014.37.34.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.butt
+{
+   width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    position: relative;
+      background: transparent;
+    border:1px solid #000 !important;
+    font-size:25px;
+    color: aliceblue;
+    margin-top: 180%;
+    margin-left: 150px;
+}
+
+.color
+{
+    color: #3ad1ed;
+}
+/*-------------HTML3---------------*/
+.paises{
+    padding: 0
+}
+.paises li{
+    border-bottom: 1px solid #909090;
+    background:#f0efef;
+    box-sizing: border-box;
+    padding: 10px 5px 3px 20px;
+    font-weight: 600;
+}
+.paises li{
+    box-sizing: border-box;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 15px;
+    list-style: none;
+    border-top: 1px solid #ccc;
+}
+
+.paises span{
+    font-weight: bold;
+    float:right;
+}
+.pas{
+    width: 30px;
+    height: 20px;
+}
+
+/*----------------html4----*/
+.encabezado
+{
+    font-weight: bold;
+}
+.seccion .row
+{
+    font-weight: bolder;
+}
+.icono
+{
+    font-size: 30px;
+    margin-right:60px;
+}
+.salida{
+    margin-top: 80px;
+    border: none;
+    background: #ccc;
+    color: white;
+    box-sizing: border-box;
+    width: 200px;
+    border-radius: 7px;
+    font-size: 30px;
+}
+
+
+
+
+
