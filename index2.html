@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Sing Up</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/quieres.css">
     <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
-<body>
+<body onload="init()">
     <header class="encabezado">
         <div class="container">
             <div class="row text-center">
                <ul class="list-inline">      
                   </ul>
-                   <p>Únete ahora para obtener crédito gratis</p>
+                  
+                  <h1 class="tit">Soign up</h1>
+                   <p class="parra">Join now for free ride credit</p>
             </div>
             <hr>
         </div>
@@ -32,7 +35,7 @@
                             
                             <a href="index4.html">
                             
-                            <img class="pas" src="http://cualesel.net/wp-content/uploads/cu%C3%A1l-es-la-bandera-de-per%C3%BA-.png">
+                            <img class="pas" src="http://cualesel.net/wp-content/uploads/cu%C3%A1l-es-la-bandera-de-per%C3%BA-.png" id="face">
                             </a>
                             <a href="inde2.html"><span class="caret"></span></a>
                             </button>
@@ -40,11 +43,15 @@
                         <input type="text" class="form-control" aria-label="" id="numero"
                         placeholder="+51  974 231 123">
                     </div>
-                    <p>Enviaremos un texto a su teléfono</p>
+                    <br>
+                    
+                    <p class="parra">We´ll send a text to verify your phone</p>
                    <a href="index3.html"><button class="salida">NEXT</button></a> 
                 </div>
             </div>
         </div>
     </section>
+     <script src="js/json.js"></script>
+    <script src="js/main2.js"></script>
 </body>
 </html>

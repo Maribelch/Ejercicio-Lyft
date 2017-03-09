@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Obtener coordenadas de un marcador </title>
-    <style>
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      #map {
-        width: 100%;
-        height: 80%;
-      }
-      #coords{width: 500px;}
-    </style>
-  </head>
-  <body>
-    <div id="map"></div>
-
-    <input type="text" id="coords" />
-    <script>
-
-
 var marker;          //variable del marcador
 var coords = {};    //coordenadas obtenidas con la geolocalización
 
@@ -43,7 +18,6 @@ initMap = function ()
           },function(error){console.log(error);});
     
 }
-
 
 
 function setMapa (coords)
@@ -76,6 +50,23 @@ function setMapa (coords)
         //escribimos las coordenadas de la posicion actual del marcador dentro del input #coords
         document.getElementById("coords").value = this.getPosition().lat()+","+ this.getPosition().lng();
       });
+    
+    //icono del carro
+    var myLatlng = new google.maps.LatLng(coords.lat,coords.lng)
+var mapOptions = {
+  zoom: 4,
+  center: myLatlng
+}
+
+var marker = new google.maps.Marker({
+    position: myLatlng,
+    title:"Hello World!",
+    icon:" img/images.jpg"
+});
+    
+
+// To add the marker to the map, call setMap();
+marker.setMap(map);
 }
 
 //callback al hacer clic en el marcador lo que hace es quitar y poner la animacion BOUNCE
@@ -90,8 +81,6 @@ function toggleBounce() {
 
 // Carga de la libreria de google maps 
 
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
-  </body>
-</html>
 
+
+        

@@ -1,0 +1,58 @@
+.pay{
+    font-size: 20px;
+    margin-left: 15%;
+}
+.per{
+    border-radius:50%;
+    width: 255px;
+    border:3px solid #ccc;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 35%;
+}
+.btn-group{
+    width: 80%;
+    margin-left:30%;
+}
+
+.uno{
+    width: 25%;
+    height: 75px;
+
+}
+.tres{
+    width: 15%;
+    height: 75px;
+    
+}
+
+.bac{
+    
+    width: 95%;;
+    height: 60px;
+}
+
+.car{
+    margin-left:980px; 
+}
+.titulo {
+    font-family: fantasy;
+    font-size: 25px;
+    color: #FF00FF;
+    
+}
+.puntos{
+    color: #000;
+}
+.next{
+            width: 130%;
+            height: 250px;
+            background: #474C62;
+            color: #fff;
+            font-size: 80px;
+            bottom: 1%;
+   }
+.nueve{
+    margin-left: 30%;
+}
+ 

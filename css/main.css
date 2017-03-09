@@ -1,24 +1,54 @@
 /*--------html1---*/
-
+.tit{
+    font-weight: bold;
+}
+.parra{
+    font-family: sans-serif;
+}
 .imagen
 {
-    position:absolute;
-    background-image: url(../img/Captura%20de%20pantalla%202017-02-09%20a%20las%2014.37.34.png);
-    background-repeat:no-repeat;
-    background-size: cover;
+    background-image: url(../img/GirlWaves-1920x1650.jpg);
+    background-repeat: no-repeat;
+    
+ 
+}
+.titulo{
+   
+  font-family: fantasy;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.botones{
+    padding-top: 110%;
+    margin: auto;
 }
 .butt
 {
-   width: 200px;
-    height: 80px;
-    border-radius: 5px;
+   width: 320px;
+    height: 130px;
+    border-radius: 10px;
     position: relative;
+    right: 70px;
       background: transparent;
-    border:1px solid #000 !important;
-    font-size:25px;
+    border:2px solid #fff !important;
+    font-size:50px;
+    font-family: sans-serif;
+    color: aliceblue;    
+}
+
+.butt3
+{
+    background-image: url(../img/degra.jpg);
+   width: 330px;
+    height: 135px;
+    border-radius: 10px;
+    position: relative;
+      font-size:50px;
+      font-family: sans-serif;
     color: aliceblue;
-    margin-top: 180%;
-    margin-left: 150px;
+    left: 70px;
 }
 
 .color
@@ -50,8 +80,8 @@
     float:right;
 }
 .pas{
-    width: 30px;
-    height: 20px;
+    width: 25px;
+    height: 15px;
 }
 
 /*----------------html4----*/
