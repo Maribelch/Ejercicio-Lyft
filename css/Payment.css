@@ -1,43 +1,47 @@
 .pay{
-    font-size: 20px;
-    margin-left: 15%;
+    font-size: 80px;
+    margin-left: 55%;
 }
 .per{
     border-radius:50%;
-    width: 255px;
+    width: 455px;
     border:3px solid #ccc;
     margin-top: 80px;
     margin-bottom: 10px;
-    margin-left: 35%;
+    margin-left: 55%;
 }
 .btn-group{
-    width: 80%;
-    margin-left:30%;
+    width: 150%;
+    margin-left:5%;
 }
 
 .uno{
     width: 25%;
-    height: 75px;
+    height: 130px;
 
 }
 .tres{
     width: 15%;
-    height: 75px;
+    height: 130px;
     
 }
 
 .bac{
     
     width: 95%;;
-    height: 60px;
+    height: 130px;
 }
 
 .car{
-    margin-left:980px; 
+    margin-left:980px;
+    font-size: 50px;
+}
+.cor{
+    font-size: 50px;
 }
 .titulo {
     font-family: fantasy;
-    font-size: 25px;
+    font-size: 90px;
     color: #FF00FF;
     
 }
@@ -45,14 +49,21 @@
     color: #000;
 }
 .next{
-            width: 130%;
-            height: 250px;
+            width: 156%;
+            height: 320px;
             background: #474C62;
             color: #fff;
-            font-size: 80px;
+            font-size: 190px;
             bottom: 1%;
+            margin-top:67%; 
    }
 .nueve{
-    margin-left: 30%;
+     margin-left: 55%;
+    font-size:150px;
+    margin-top:20%;
+}
+hr{
+    border:1px solid #ccc;
+    width:160%;
 }
  
